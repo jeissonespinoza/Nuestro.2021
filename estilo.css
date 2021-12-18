@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lobster', cursive;
+justify-content: center;
+}
+body{
+    background: url(img/fondo.jpeg); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: flex;
+}
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
+.contenedor h1{
+    font-size: 50px;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(img/fondoletras.jpg);
+    margin-bottom:20px;
+    background-attachment:fixed;
+}
+.contenedor h2{
+    font-size: 30px;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(img/fondoletras.jpg);
+    margin-bottom:20px;
+    background-attachment:fixed;
+
+}
+.contenedor p{
+    line-height: 1.5;
+    color: #000000;
+    background: transparent;
+}
+a {
+    color:rgb(0, 0, 0);
+    background: transparent;
+    text-align: center;
+}
+.cuadro{
+    width: 100%;
+    height: 80px;
+    background-image: url(img/difuminado.jpeg);
+    background-size: 100% 100%;
+    padding: 30px;
+}
+.separacion{
+    width: 100%;
+}

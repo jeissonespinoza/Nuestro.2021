@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lobster', cursive;
+justify-content: center;
+}
+.volver{
+    color:black;
+    text-align: left;
+}
+body{
+    background: url(img/fondo.jpeg); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: block;
+    margin: 20px;
+}
+.contenedor{
+    text-align: center;
+}
+.contenedor h1{
+    font-size: 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(img/fondoletras.jpg);
+    margin-bottom:20px;
+    background-attachment:fixed;
+}
+.contenedor p{
+    font-size: 20px;
+}
+.dibujosjime{
+    text-align: center;
+
+}
+.dibujosjeisson{
+    text-align: center;
+}

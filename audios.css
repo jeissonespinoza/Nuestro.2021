@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lobster', cursive;
+justify-content: center;
+}
+body{
+    background: url(img/fondo.jpeg); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    display: block;
+    margin: 20px;
+}
+.volver{
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.volver a{
+    color: black;
+}
+.titulo{
+    text-align: center;
+    width: 100%;
+}
+.titulo h1{
+    font-size: 50px;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    background-image: url(img/fondoletras.jpg);
+    margin-bottom:20px;
+    background-attachment:fixed;
+}
+.audios{
+    margin-top: 50px;
+    text-align: center;
+}
+.audios h2{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: left;
+}
+.audios video{
+    text-align: center;
+    margin-top: 20px;
+    width: 200px;
+}
